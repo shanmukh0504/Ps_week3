@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+img {
+    width: 100px;
+    height: 600px;
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>Project school is a platform where students can explore some real time projects and work on it.</p>
+</div>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="Loginpage.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">About</li>
+  </ol>
+</nav>
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://imgs.search.brave.com/sU7Ia_RQiNwb9hIoWxjSV2fF4utWpg20a6MhzmgU2mU/rs:fit:466:700:1/g:ce/aHR0cHM6Ly9jZG4u/YWNpZGNvdy5jb20v/cGljcy8yMDE4MDYy/OC9jdXRlX2dpcmxz/XzEyLmpwZw" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Pooja Godse</h2>
+        <p class="title">Mentor</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Qui, laboriosam. Hic, reprehenderit cumque.</p>
+        <p>pooja@kmit.com</p>
+        <p><button class="button" onclick="window.open('Contact.html');">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://imgs.search.brave.com/kz1RU5cGreYHiEzRIaENegYFNdfIvniDaXiN6TsAWjQ/rs:fit:315:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC52/RzlqdktuOXdLS1VC/SWZJU3JBY1NBSGFM/SiZwaWQ9QXBp" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Bilahari</h2>
+        <p class="title">Mentor</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Suscipit optio aliquid adipisci ea!</p>
+        <p>Bilahari@kmit.com</p>
+        <p><button class="button" onclick="window.open('Contact.html');">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://imgs.search.brave.com/vaPv1MgHEDor1crht09U9JV6MAEXaZQtMxX63kzixa8/rs:fit:367:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5x/N1J6WHFnRmRKTHZE/cUtENFJZcWRRSGFK/ayZwaWQ9QXBp" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Pavan</h2>
+        <p class="title">Mentor</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Beatae ad sequi id asperiores?</p>
+        <p>pavan@kmit.com</p>
+        <p><button class="button" onclick="window.open('Contact.html');">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
